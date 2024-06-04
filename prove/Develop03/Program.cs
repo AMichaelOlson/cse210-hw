@@ -25,13 +25,15 @@ static void Main()
     {
         Random random = new Random();
 
-        Console.WriteLine("Press Enter to reveal");
+        Console.WriteLine("Press Enter to begin the program:");
         Console.ReadLine();
 
         scripture.Display(); // Display the entire scripture initially
 
         while (scripture.ListWords.Exists(word => word.Show))
         {
+            Console.WriteLine("");
+            Console.Write("Press Enter to hide 3 random words:");
             Console.ReadLine(); // Wait for user input before revealing the next set of words
             Console.Clear(); // Clear the console before displaying the next set of words
 
