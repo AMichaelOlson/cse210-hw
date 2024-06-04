@@ -40,7 +40,7 @@ static void Main()
             // Reveal three random words at a time
             for (int i = 0; i < 3; i++)
             {
-                scripture.RandomWordUnderscore();
+                scripture.UnderscoreRandomWord();
             }
 
             scripture.Display(); // Display the updated scripture with hidden words

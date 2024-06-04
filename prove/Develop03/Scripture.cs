@@ -50,7 +50,7 @@ public class Scripture
         }
     }
 
-    public void RandomWordUnderscore()
+    public void UnderscoreRandomWord()
     {
         Random rand = new Random();
 
