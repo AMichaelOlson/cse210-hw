@@ -25,7 +25,7 @@ static void Main()
     {
         Random random = new Random();
 
-        Console.WriteLine("Press Enter to reveal the first word.");
+        Console.WriteLine("Press Enter to reveal");
         Console.ReadLine();
 
         scripture.Display(); // Display the entire scripture initially
