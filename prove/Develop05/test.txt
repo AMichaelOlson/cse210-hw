@@ -1,0 +1,4 @@
+200
+Simple Goal:[ ]:SimpleTest:Testing the simple goal:100
+Eternal Goal:[ ]:EternalTest:Testing the Eternal Goal:300
+Checklist Goal:[ ]:TestChecklist:Does it work?:50:0:3:100
