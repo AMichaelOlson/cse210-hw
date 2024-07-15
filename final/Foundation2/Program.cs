@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Address address1 = new Address("911 Twin St", "New York", "NY", "USA");
+        Address address1 = new Address("912 Twin St", "New York", "NY", "USA");
         Address address2 = new Address("69 Elm St", "Berlin", "GER", "Germany");
 
         Customer customer1 = new Customer("Joseph Joestar", address1);
