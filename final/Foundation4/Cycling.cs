@@ -1,6 +1,6 @@
 public class Cycling : Activity
 {
-    private double speed; // speed in miles per hour or kilometers per hour
+    private double speed; // speed in miles per hour
 
     public Cycling(DateTime date, int duration, double speed)
         : base(date, duration)
